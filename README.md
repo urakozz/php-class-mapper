@@ -9,7 +9,11 @@ Class mapper
 [![License](http://img.shields.io/packagist/l/kozz/class-mapper.svg)](https://packagist.org/packages/kozz/class-mapper)
 
 
-Mapping Class properties using components of JMS Serializer
+Mapping Class properties using JMS Serializer components
+
+### Why to use it
+
+ClassMapper can only fill simple maps and Normalizer performs type casting. So it works much faster than original JMS Serializer. 
 
 ### Usage
 
